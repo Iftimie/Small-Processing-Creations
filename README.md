@@ -58,3 +58,13 @@ Each defender has a visibility range and are able to patrol and look for predato
 Here is the final result:
 ![demo](media/ice_video_20170601-135839.gif)
 
+## 5. Djikstra visual representation
+This project is where I tried to implement the navigation mesh.
+The ideea is that a map in a computer game is composed of multiple polygons. Each of them can be represented as a node, and here the Djisktra algorithm comes into action by finding the shortest path betwen the nodes.
+![](media/recast_intro.png)
+![](media/tumblr_inline_mxq72ff0Sa1qmjjqw.png)
+
+But in order for computer games to make it look more realistic, programmers created the Funnel Algorithm that cuts the corners, so that the agent will actually take the shortest path in a 2D world.
+And now you can see my implementation. The green line represents the shortest path found by Djisktra algorithm , and the orange line is the line found by the Funnel Algorithm. The blue lines connecting come dots are "portals" necessary for the Funnel Algorithm.
+![Funnel](media/funnelAlgorithm.JPG)
+
