@@ -10,14 +10,17 @@ Therefore I present here my self-assigned projects that helped me understand pro
 ## 1. Finnaly the snake
 The title comes from my frustration that I had while programming this.
 The ideea is that I wanted to program a snake that has a smooth motion while chasing the mouse.
+
 ![Snake chasing mouse](media/ezgif.com-resize.gif)
 
 ## 2. Circle Quare Hexagon
 Here I tried to reproduce a video a found online but I did not succeded with the hexagon which should have been found in the third row.
+
 ![Circle Quare Hexagon](media/ice_video_20170601-132736.gif)
 
 ## 3. Cannonball
 Here I learned about particle systems and how to create nice explosion effects by hand.
 This game has 4 balls that are launched. At the end of each ball life it is placed back in the cannonball.
 If the ball hits the moving target, it is transofmed into particles that have an increased lifespan. At the end of the particle lifespan, the ball is placed back in the cannonball.
+
 ![Cannonball](media/ice_video_20170601-133413.gif)
