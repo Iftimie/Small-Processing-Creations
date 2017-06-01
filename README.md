@@ -35,22 +35,20 @@ Here I wanted to implement genetic algorithms into a 2d environment where agents
 ![predator](media/predator.JPG)
 
 There are also mutiple types of buldings:
-The armory is for defenders. The armory gives the capacity to the city to sustain a number of defender, precisely 4 defenders per armory.
+1. The armory is for defenders. The armory gives the capacity to the city to sustain a number of defender, precisely 4 defenders per armory.
+2. The food deposit is where the food workers store their load. Also every worker comes to eat here to replenish HP points because they get hungry.
+3. The resource deposit is where the resource workers store their load. It was supposed that with these resources new buildings could be constructed, but this feature was left unimplemented.
+4. The mating hall is where workers come when they reach their mating age. They wait for another worker and a new random worker is created. The new worker had attributes stored in a DNA that was inherited from both parents.
 
 ![Armory](media/armory.JPG)
-The food deposit is where the food workers store their load. Also every worker comes to eat here to replenish HP points because they get hungry.
-
 ![Food Deposit](media/foodDeposit.JPG)
-The resource deposit is where the resource workers store their load. It was supposed that with these resources new buildings could be constructed, but this feature was left unimplemented.
-
 ![Resource Deposit](media/resourceDeposit.JPG)
-The mating hall is where workers come when they reach their mating age. They wait for another worker and a new random worker is created. The new worker had attributes stored in a DNA that was inherited from both parents.
-
 ![Mating hall](media/matingHall.JPG)
+
 There are also two types of resources:
-Food
+Food and Resources (yes I now, bad naming)
+
 ![Food](media/food.JPG)
-Resources
 ![resources](media/resources.JPG)
 
 Each of these agents have some properties like Health Points, mating age (when reached they go the mating hall and wait for somebody to create a random new worker), attack power(only defenders can attack), carry capacity (only for food workers and resource workers).
