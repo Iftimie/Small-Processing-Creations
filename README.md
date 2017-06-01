@@ -27,27 +27,26 @@ If the ball hits the moving target, it is transofmed into particles that have an
 
 ## 4. 2D-Virtual-World-Simulator
 Fancy title for a simple game wannabe.
-Here I wanted to implement genetic algorithms into a 2d environment where agents are able to reproduce and evolve. There are multiple types of "workes". Here are some pictures: food worker, resource worker, defender
+Here I wanted to implement genetic algorithms into a 2d environment where agents are able to reproduce and evolve. There are multiple types of "workes". Here are some pictures: food worker, resource worker, defender,and a predator
+
 ![workerFood](media/workerFood.JPG)
 ![workerResources](media/workerResources.JPG)
 ![workerDefender](media/workerDefender.JPG)
-
-And a predator
 ![predator](media/predator.JPG)
 
 There are also mutiple types of buldings:
 The armory is for defenders. The armory gives the capacity to the city to sustain a number of defender, precisely 4 defenders per armory.
+
 ![Armory](media/armory.JPG)
-
 The food deposit is where the food workers store their load. Also every worker comes to eat here to replenish HP points because they get hungry.
+
 ![Food Deposit](media/foodDeposit.JPG)
-
 The resource deposit is where the resource workers store their load. It was supposed that with these resources new buildings could be constructed, but this feature was left unimplemented.
+
 ![Resource Deposit](media/resourceDeposit.JPG)
-
 The mating hall is where workers come when they reach their mating age. They wait for another worker and a new random worker is created. The new worker had attributes stored in a DNA that was inherited from both parents.
-![Mating hall](media/matingHall.JPG)
 
+![Mating hall](media/matingHall.JPG)
 There are also two types of resources:
 Food
 ![Food](media/food.JPG)
