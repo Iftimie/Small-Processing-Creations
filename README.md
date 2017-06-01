@@ -9,4 +9,4 @@ Therefore I present here my self-assigned projects that helped me understand pro
 1. Finnaly the snake
 The title comes from my frustration that I had while programming this.
 The ideea is that I wanted to program a snake that has a smooth motion while chasing the mouse.
-[Snake chasing mouse](media/ice_video_20170601-131104.gif)
+![Snake chasing mouse](media/ice_video_20170601-131104.gif)
