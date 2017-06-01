@@ -61,6 +61,7 @@ Here is the final result:
 ## 5. Djikstra visual representation
 This project is where I tried to implement the navigation mesh.
 The ideea is that a map in a computer game is composed of multiple polygons. Each of them can be represented as a node, and here the Djisktra algorithm comes into action by finding the shortest path betwen the nodes.
+
 ![](media/recast_intro.png)
 ![](media/tumblr_inline_mxq72ff0Sa1qmjjqw.png)
 
