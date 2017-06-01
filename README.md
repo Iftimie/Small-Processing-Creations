@@ -42,7 +42,7 @@ There are also mutiple types of buldings:
 
 ![Armory](media/armory.JPG)
 ![Food Deposit](media/foodDeposit.JPG)
-![Resource Deposit](media/resourceDeposit.JPG)
+![Resource Deposit](media/resourcesDeposit.JPG)
 ![Mating hall](media/matingHall.JPG)
 
 There are also two types of resources:
